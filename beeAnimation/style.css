@@ -1,3 +1,4 @@
+
 body {
     background: linear-gradient(to bottom, rgb(34, 255, 119), #1a9f3b);
     height: 100vh;
@@ -6,6 +7,14 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+h1 {
+    font-size:8px;
+    position:relative;
+    bottom:-250px;
+    left:120px;
+    text-align:center;
+  }
 
 svg {
     width: 90vmin;
@@ -128,3 +137,4 @@ svg {
         d: path('M14 25 q-.8 0 -.8 4 ');
     }
 }
+
