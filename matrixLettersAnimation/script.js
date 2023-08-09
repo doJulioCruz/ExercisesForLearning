@@ -26,7 +26,7 @@ function draw () {
 
     for (let i = 0; i < drops.length; i++) {
         const randomChar = charSet[Math.floor(Math.random() * charSet.length)];
-        ctxfillText(randomChar, i * fontSize, drops[i] * fontSize);
+        ctx.fillText(randomChar, i * fontSize, drops[i] * fontSize);
 
         if (drops[i] * fontSize > screenHeight && Math.random() > 0.975) {
             drops[i] = 0;
