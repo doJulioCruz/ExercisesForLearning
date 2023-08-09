@@ -18,7 +18,7 @@ for (let i = 0; i < columns; i++) {
 
 //draw the characters on the canvas
 function draw () {
-    ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+    ctx.fillStyle = "rgba( 0, 0, 0, 0.05)";
     ctx.fillRect(0, 0, screenWidth, screenHeight);
     
     ctx.fillStyle = "#0F0";
