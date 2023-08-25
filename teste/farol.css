@@ -10,13 +10,44 @@
 }
 
 .sand {
-    background-color: #ffc34d;
+    background-color: rgb(255, 195, 77);
     height: 100px;
     width: 350px;
     border-radius: 175px 175px 0px 0px;
     position: relative;
     top: 440px;
+    animation: sombraar 30s infinite linear forwards;
 }
+
+@keyframes sombraar {
+    0% {
+        background-color: rgb(255, 195, 77);
+    }
+    12.5% {
+        background-color: rgb(255, 195, 77);
+    }
+    25% {
+        background-color: rgb(191, 145, 54);
+    }
+    37.5% {
+        background-color: rgb(138, 106, 42);
+    }
+    50% {
+        background-color: rgb(109, 80, 22);
+    }
+    62.5% {
+        background-color: rgb(138, 106, 42);
+    }
+    75% {
+        background-color: rgb(191, 145, 54);
+    }
+    87.5% {
+        background-color: rgb(255, 195, 77);
+    }
+    100% {
+        background-color: rgb(255, 195, 77);
+    }
+} 
 
 a {
     position: relative;
@@ -36,54 +67,36 @@ a {
     position: relative;
     left: 95px;
     top: 100px;
-    animation: escurecer 30s infinite linear alternate;
+    animation: sombrat 30s infinite linear forwards;
 }
 
-@keyframes escurecer {
+@keyframes sombrat {
     0% {    
         border-bottom:300px solid rgb(255, 255, 255);
-        border-left: 20px solid transparent;
-        border-right: 20px solid transparent;
     }
     12.5% {        
         border-bottom:300px solid rgb(255, 255, 255);
-        border-left: 20px solid transparent;
-        border-right: 20px solid transparent;
     }
     25% {
-        border-bottom:300px solid rgb(208, 208, 208);
-        border-left: 20px solid transparent;
-        border-right: 20px solid transparent;
+        border-bottom:300px solid rgb(200, 200, 200);
     }
     37.5% {
         border-bottom:300px solid rgb(99, 99, 99);
-        border-left: 20px solid transparent;
-        border-right: 20px solid transparent;
     }
     50% {
         border-bottom:300px solid rgb(84, 84, 84);
-        border-left: 20px solid transparent;
-        border-right: 20px solid transparent;
     }
     62.5% {
         border-bottom:300px solid rgb(99, 99, 99);
-        border-left: 20px solid transparent;
-        border-right: 20px solid transparent;
     }
     75% {
-        border-bottom:300px solid rgb(125, 125, 125);
-        border-left: 20px solid transparent;
-        border-right: 20px solid transparent;
+        border-bottom:300px solid rgb(200, 200, 200);
     }
     87.5% {
-        border-bottom:300px solid rgb(181, 181, 181);
-        border-left: 20px solid transparent;
-        border-right: 20px solid transparent;
+        border-bottom:300px solid rgb(255, 255, 255);
     }
     100% {
-        border-bottom:300px solid rgb(207, 207, 207);
-        border-left: 20px solid transparent;
-        border-right: 20px solid transparent;
+        border-bottom:300px solid rgb(255, 255, 255);
     }
 
 }
@@ -108,7 +121,7 @@ a {
     right: 5px;
     height: 0px;
     width: 126px;
-    border-bottom: 25px solid #a93863;
+    border-bottom: 25px solid rgb(169, 56, 99);
     border-left: 2px solid transparent;
     border-right: 2px solid transparent;
     animation: sombras 30s infinite;
@@ -116,50 +129,32 @@ a {
 
 @keyframes sombras {
     0% {
-        border-bottom: 25px solid #a93863;
-        border-left: 2px solid transparent;
-        border-right: 2px solid transparent;
+        border-bottom: 25px solid rgb(169, 56, 99);
     }
     12.5% {
-        border-bottom: 25px solid #a93863;
-        border-left: 2px solid transparent;
-        border-right: 2px solid transparent;
+        border-bottom: 25px solid rgb(169, 56, 99);
     }
     25% {
-        border-bottom: 25px solid #903054;
-        border-left: 2px solid transparent;
-        border-right: 2px solid transparent;
+        border-bottom: 25px solid rgb(144, 48, 84);
     }
     37.5% {
-        border-bottom: 25px solid #832b4c;
-        border-left: 2px solid transparent;
-        border-right: 2px solid transparent;
+        border-bottom: 25px solid rgb(131, 43, 76);
     }
     50% {
-        border-bottom: 25px solid #3b1222;
-        border-left: 2px solid transparent;
-        border-right: 2px solid transparent;
+        border-bottom: 25px solid rgb(59, 18, 34);
     
     }
     62.5% {
-        border-bottom: 25px solid #832b4c;
-        border-left: 2px solid transparent;
-        border-right: 2px solid transparent;
+        border-bottom: 25px solid rgb(131, 43, 76);
     }
     75% {
-        border-bottom: 25px solid #903054;
-        border-left: 2px solid transparent;
-        border-right: 2px solid transparent;
+        border-bottom: 25px solid rgb(144, 48, 84);
     }
     87.5% {
-        border-bottom: 25px solid #a93863;
-        border-left: 2px solid transparent;
-        border-right: 2px solid transparent;
+        border-bottom: 25px solid rgb(169, 56, 99);
     }
     100% {
-        border-bottom: 25px solid #a93863;
-        border-left: 2px solid transparent;
-        border-right: 2px solid transparent;
+        border-bottom: 25px solid rgb(169, 56, 99);
     }
 } 
 
@@ -167,10 +162,36 @@ a {
     width: 60px;
     height: 70px;
     border-radius: 42px 42px 0px 0px;
-    background-color: seagreen;
+    background-color: rgb(46, 139, 87);
     position: relative;
     left: 30px;
+    animation: sombrad 30s infinite linear forwards;
 }
+
+@keyframes sombrad {
+    0% {
+        background-color: rgb(46, 139, 87);
+    }
+    12.5% {
+        background-color: rgb(46, 139, 87);
+    }
+    25% {background-color: rgb(34, 106, 66);
+    }
+    37.5% {background-color: rgb(24, 74, 46);
+    }
+    50% {background-color: rgb(21, 66, 40);
+    }
+    62.5% {background-color: rgb(24, 74, 46);
+    }
+    75% {background-color: rgb(34, 106, 66);
+    }
+    87.5% {
+        background-color: rgb(46, 139, 87);
+    }
+    100% {
+        background-color: rgb(46, 139, 87);
+    }
+} 
 
 .door1 {
     top: 180px;
@@ -188,14 +209,76 @@ a {
     position: relative;
     right: 35px;
     bottom: 55px;
+    animation: sombraby 30s infinite linear forwards;
 }
+
+@keyframes sombraby {
+    0% {
+        border:5px solid rgb(143, 188, 143);
+    }
+    12.5% {
+        border:5px solid rgb(143, 188, 143);
+    }
+    25% {
+        border:5px solid rgb(99, 132, 99);
+    }
+    37.5% {
+        border:5px solid rgb(88, 118, 88);
+    }
+    50% {
+        border:5px solid rgb(65, 87, 65);
+    }
+    62.5% {
+        border:5px solid rgb(88, 118, 88);
+    }
+    75% {
+        border:5px solid rgb(99, 132, 99);
+    }
+    87.5% {
+        border:5px solid rgb(143, 188, 143);
+    }
+    100% {
+        border:5px solid rgb(143, 188, 143);
+    }
+} 
 
 .b1, .b2, .b3, .b4, .b5, .b6, .b7, .b8, .b9 {
     height: 25px;
     width: 5px;
     background-color: rgb(143, 188, 143);
     position: relative;
+    animation: sombrab 30s infinite linear forwards;
 }
+
+@keyframes sombrab {
+    0% {
+        background-color: rgb(143, 188, 143);
+    }
+    12.5% {
+        background-color: rgb(143, 188, 143);
+    }
+    25% {
+        background-color: rgb(99, 132, 99);
+    }
+    37.5% {
+        background-color: rgb(88, 118, 88);
+    }
+    50% {
+        background-color: rgb(65, 87, 65);
+    }
+    62.5% {
+        background-color: rgb(88, 118, 88);
+    }
+    75% {
+        background-color: rgb(99, 132, 99);
+    }
+    87.5% {
+        background-color: rgb(143, 188, 143);
+    }
+    100% {
+        background-color: rgb(143, 188, 143);
+    }
+} 
 
 .b1 {
     left: 15px;
@@ -242,35 +325,68 @@ a {
 }
 
 .s3 {
-    background-color: seagreen;
-    box-shadow: 0px 1px 1px seagreen ;
+    background-color: rgb(46, 139, 87);
+    box-shadow: 0px 1px 1px rgb(46, 139, 87) ;
     border-radius: 2px;
     height: 30px;
     width: 170px;
     position: relative;
     bottom: 220px;
     right: 25px;
+    animation: sombrad 30s infinite linear forwards;
 }
 
 .s4 {
-    background-color: seagreen;
+    background-color: rgb(46, 139, 87);
     height: 30px;
     width: 120px;
     position: relative;
     bottom: 270px;
     right: 1px;
+    animation: sombrad 30s infinite linear forwards;
 }
 
 .dome {
     height: 60px;
     width: 100px;
     border-radius: 40px 40px 0px 0px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     position: relative;
     bottom: 390px;
     right: -10px;
     z-index: 1;
+    animation: sombradm 30s infinite linear forwards;
 }
+
+@keyframes sombradm {
+    0% {
+        background-color: rgb(255, 255, 255);
+    }
+    12.5% {
+        background-color: rgb(255, 255, 255);
+    }
+    25% {
+        background-color: rgb(200, 200, 200);
+    }
+    37.5% {
+        background-color: rgb(99, 99, 99);
+    }
+    50% {
+        background-color: rgb(84, 84, 84);
+    }
+    62.5% {
+        background-color: rgb(99, 99, 99);
+    }
+    75% {
+        background-color: rgb(200, 200, 200);
+    }
+    87.5% {
+        background-color: rgb(255, 255, 255);
+    }
+    100% {
+        background-color: rgb(255, 255, 255);
+    }
+} 
 
 .glass {
     background-color: rgba(255, 255, 255, 0.5);
@@ -280,15 +396,48 @@ a {
     bottom: 390px;
     right: 1px;
     z-index: 2;
+    animation: sombrag 30s infinite linear forwards;
 }
+
+@keyframes sombrag {
+    0% {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    12.5% {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    25% {
+        background-color: rgba(205, 201, 138, 0.5);
+    }
+    37.5% {
+        background-color: rgba(177, 173, 90, 0.5);
+    }
+    50% {
+        background-color: rgba(169, 164, 61, 0.5);
+    }
+    62.5% {
+        background-color: rgba(177, 173, 90, 0.5);
+    }
+    75% {
+        background-color: rgba(205, 201, 138, 0.5);
+    }
+    87.5% {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+} 
+
 
 .s5 {
     width: 120px;
     height: 8px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     position: relative;
     bottom: 395px;
     right: 1px;
+    animation: sombradm 30s infinite linear forwards;
 }
 
 .light {
@@ -345,30 +494,33 @@ a {
 .sand1 {
     height: 50px;
     width: 70px;
-    background-color: #ffc34d;
+    background-color: rgb(255, 195, 77);
     border-radius: 50%;
     position: relative;
     bottom: 195px;
     right: 40px;
+    animation: sombraar 30s infinite linear forwards;
 }
 
 .sand2 {
     height: 30px;
     width: 30px;
-    background-color: #ffc34d;
+    background-color: rgb(255, 195, 77);
     border-radius: 50%;
     position: relative;
     bottom: 230px;
     margin-left: 25px;
+    animation: sombraar 30s infinite linear forwards;
 }
 
 .sand3 {
     height: 160px;
     width: 470px;
-    background-color: #ffc34d;
+    background-color: rgb(255, 195, 77);
     position: relative;
     bottom:-50px;
     left: -5px;
+    animation: sombraar 30s infinite linear forwards;
 }
 
 h1, h2 {
