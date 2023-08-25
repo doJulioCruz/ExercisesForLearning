@@ -519,7 +519,7 @@ a {
     background-color: rgb(255, 195, 77);
     position: relative;
     bottom:-50px;
-    left: -5px;
+    left: -20%;
     animation: sombraar 30s infinite linear forwards;
 }
 
